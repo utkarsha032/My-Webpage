@@ -4,18 +4,18 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('https://designbundles.net/microone/907921-space-doodle-vector-elements-hand-drawn-stars-come') repeat;
-    background-size: cover;
+    background: url('https://static.vecteezy.com/system/resources/previews/021/503/797/original/space-and-astronaut-seamless-doodle-pattern-with-black-and-white-color-vector.jpg') repeat;
     color: #ffffff;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #333;
     color: #fff;
     padding: 10px 0;
     position: sticky;
     top: 0;
     z-index: 1000;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Adding shadow to header text */
 }
 
 nav ul {
@@ -44,30 +44,32 @@ nav ul li a:hover {
 section {
     padding: 60px 20px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Adding shadow to section text */
 }
 
 #home {
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Deep Space gradient */
-    color: #fff;
+    color: #ffffff;
 }
 
-#about, #projects, #skills, #contact {
-    max-width: 800px; /* Limit the width of text-containing columns */
-    margin: 0 auto;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    border-radius: 8px;
+#about {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#projects {
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .project {
-    background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background for projects */
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
     margin: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Adding shadow to project text */
 }
 
 .project:hover {
@@ -88,6 +90,10 @@ section {
     text-decoration: underline;
 }
 
+#skills {
+    background: rgba(0, 0, 0, 0.7);
+}
+
 #skills ul {
     list-style-type: none;
     padding: 0;
@@ -100,6 +106,10 @@ section {
     padding: 10px;
     border-radius: 4px;
     display: inline-block;
+}
+
+#contact {
+    background: rgba(255, 255, 255, 0.1);
 }
 
 #contact-form {
@@ -141,12 +151,14 @@ section {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Adding shadow to footer text */
 }
+
 
