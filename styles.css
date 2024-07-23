@@ -150,15 +150,35 @@ section {
     background: #ff4500; /* Darker tomato color */
 }
 
+/* Align text to the left */
+#resources, #create {
+    text-align: left;
+    padding: 20px;
+}
+
+/* Space profile buttons wider apart */
+.profile-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-buttons button {
+    margin: 0 15px;
+}
+
+/* Styling for social icons */
+.social-icon {
+    margin: 0 10px;
+}
+
 footer {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0); /* Transparent background */
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0; /* Reduced height */
     position: fixed;
     width: 100%;
     bottom: 0;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Adding shadow to footer text */
 }
-
 
