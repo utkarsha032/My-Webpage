@@ -1,18 +1,15 @@
-/* Importing Arial font */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
 
-/* Global Styles */
 body {
-    font-family: Arial, sans-serif; /* Reverted font style to Arial */
-    font-size: 16px; /* Increased font size */
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* Light gray background */
-    color: #333;
+    background: url('https://static.vecteezy.com/system/resources/previews/021/503/797/original/space-and-astronaut-seamless-doodle-pattern-with-black-and-white-color-vector.jpg') repeat;
+    color: #ffffff;
 }
 
 header {
-    background-color: #333; /* Dark background */
+    background-color: #333;
     color: #fff;
     padding: 10px 0;
     position: sticky;
@@ -43,27 +40,26 @@ nav ul li a:hover {
     color: #ff6347; /* Tomato color */
 }
 
-/* Sections */
 section {
     padding: 60px 20px;
     text-align: center;
 }
 
 #home {
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Sunset gradient */
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Deep Space gradient */
     color: #fff;
 }
 
 #about {
-    background: #fff;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 #projects {
-    background: #e4e4e4;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .project {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.2);
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
@@ -77,7 +73,7 @@ section {
 }
 
 .project h3 {
-    color: #333;
+    color: #fff;
 }
 
 .project a {
@@ -91,7 +87,7 @@ section {
 }
 
 #skills {
-    background: #f9f9f9;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 #skills ul {
@@ -109,7 +105,7 @@ section {
 }
 
 #contact {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 #contact-form {
@@ -121,6 +117,7 @@ section {
 #contact-form label {
     display: block;
     margin: 10px 0 5px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 #contact-form input,
@@ -131,6 +128,7 @@ section {
     border: 1px solid #ddd;
     border-radius: 4px;
     box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
 }
 
 #contact-form button {
@@ -141,15 +139,15 @@ section {
     border-radius: 4px;
     cursor: pointer;
     transition: background 0.3s ease;
+    font-family: 'Roboto Mono', monospace;
 }
 
 #contact-form button:hover {
     background: #ff4500; /* Darker tomato color */
 }
 
-/* Footer */
 footer {
-    background-color: #333; /* Dark background */
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
