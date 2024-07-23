@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f0f8ff; /* Light sky blue background */
+}
+
+header {
+    background: #87cefa; /* Sky blue */
+    padding: 10px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #e0ffff; /* Light cyan */
+    border-radius: 10px;
+}
+
+section h2 {
+    border-bottom: 2px solid #87cefa;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.view-project-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #00bfff; /* Deep sky blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.view-project-button:hover {
+    background: #1e90ff; /* Dodger blue */
+}
+
+/* Skills List */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background: #f0ffff; /* Azure */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Social Buttons */
+.social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.social-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #87cefa; /* Sky blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.social-button i {
+    margin-right: 8px;
+}
+
+.social-button:hover {
+    background: #00bfff; /* Deep sky blue */
+}
+
+/* Create Your Own Website */
+#create ol {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+#create ol li {
+    margin-bottom: 10px;
+}
+
+#contact {
+    /* Commented out for now */
+    display: none;
+}
+
+/* Footer */
+footer {
+    background: #87cefa; /* Sky blue */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
