@@ -4,12 +4,13 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('https://static.vecteezy.com/system/resources/previews/021/503/797/original/space-and-astronaut-seamless-doodle-pattern-with-black-and-white-color-vector.jpg') repeat;
+    background: url('https://designbundles.net/microone/907921-space-doodle-vector-elements-hand-drawn-stars-come') repeat;
+    background-size: cover;
     color: #ffffff;
 }
 
 header {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     padding: 10px 0;
     position: sticky;
@@ -43,6 +44,7 @@ nav ul li a:hover {
 section {
     padding: 60px 20px;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
 }
 
 #home {
@@ -50,16 +52,16 @@ section {
     color: #fff;
 }
 
-#about {
-    background: rgba(0, 0, 0, 0.7);
-}
-
-#projects {
-    background: rgba(255, 255, 255, 0.1);
+#about, #projects, #skills, #contact {
+    max-width: 800px; /* Limit the width of text-containing columns */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 8px;
 }
 
 .project {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
@@ -86,10 +88,6 @@ section {
     text-decoration: underline;
 }
 
-#skills {
-    background: rgba(0, 0, 0, 0.7);
-}
-
 #skills ul {
     list-style-type: none;
     padding: 0;
@@ -102,10 +100,6 @@ section {
     padding: 10px;
     border-radius: 4px;
     display: inline-block;
-}
-
-#contact {
-    background: rgba(255, 255, 255, 0.1);
 }
 
 #contact-form {
@@ -147,7 +141,7 @@ section {
 }
 
 footer {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -155,3 +149,4 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
