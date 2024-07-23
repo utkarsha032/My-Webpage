@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
     color: #fff;
     padding: 10px 0;
     position: sticky;
@@ -41,6 +41,8 @@ nav ul li a:hover {
 section {
     padding: 60px 20px;
     text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text visibility */
+    border-radius: 8px;
 }
 
 #home {
@@ -53,11 +55,11 @@ section {
 }
 
 #projects {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.2); /* More opaque white background */
 }
 
 .project {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.4); /* Lightly opaque background */
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
@@ -103,7 +105,7 @@ section {
 }
 
 #contact {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.2); /* More opaque white background */
 }
 
 #contact-form {
@@ -144,12 +146,35 @@ section {
     background: #ff4500; /* Darker tomato color */
 }
 
+/* Align text to the left */
+#resources, #create {
+    text-align: left;
+    padding: 20px;
+}
+
+/* Space profile buttons wider apart */
+.profile-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-buttons button {
+    margin: 0 15px;
+}
+
+/* Styling for social icons */
+.social-icon {
+    margin: 0 10px;
+}
+
 footer {
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0; /* Reduced height */
     position: fixed;
     width: 100%;
     bottom: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Adding shadow to footer text */
 }
+
