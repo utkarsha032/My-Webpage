@@ -15,7 +15,6 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Adding shadow to header text */
 }
 
 nav ul {
@@ -44,13 +43,11 @@ nav ul li a:hover {
 section {
     padding: 60px 20px;
     text-align: center;
-    background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Adding shadow to section text */
 }
 
 #home {
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Deep Space gradient */
-    color: #ffffff;
+    color: #fff;
 }
 
 #about {
@@ -62,14 +59,13 @@ section {
 }
 
 .project {
-    background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background for projects */
+    background: rgba(255, 255, 255, 0.2);
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
     margin: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Adding shadow to project text */
 }
 
 .project:hover {
@@ -154,10 +150,9 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 5px 0;
+    padding: 10px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Adding shadow to footer text */
 }
 
