@@ -150,32 +150,11 @@ section {
     background: #ff4500; /* Darker tomato color */
 }
 
-/* Align text to the left */
-#resources, #create {
-    text-align: left;
-    padding: 20px;
-}
-
-/* Space profile buttons wider apart */
-.profile-buttons {
-    display: flex;
-    justify-content: space-between;
-}
-
-.profile-buttons button {
-    margin: 0 15px;
-}
-
-/* Styling for social icons */
-.social-icon {
-    margin: 0 10px;
-}
-
 footer {
-    background-color: rgba(0, 0, 0, 0); /* Transparent background */
+    background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 5px 0; /* Reduced height */
+    padding: 5px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
