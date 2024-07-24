@@ -44,8 +44,7 @@ section {
 }
 
 #home {
-    background:   background: rgba(0, 0, 0, 0.9);
-/*rgba(0, 0, 0, 0.9); linear-gradient(to right, #0f2027, #203a43, #2c5364); */ /* Deep Space gradient */
+    background:   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);  /* Deep Space gradient */
     color: #fff;
 }
 
