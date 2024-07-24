@@ -44,7 +44,7 @@ section {
 }
 
 #home {
-    background: rgba(0, 0, 0, 0.7); /*linear-gradient(to right, #0f2027, #203a43, #2c5364); */ /* Deep Space gradient */
+    background: rgba(0, 0, 0, 0.9); /*linear-gradient(to right, #0f2027, #203a43, #2c5364); */ /* Deep Space gradient */
     color: #fff;
 }
 
@@ -182,14 +182,14 @@ footer {
 #create h2 {
     font-size: 1.2em; /* Adjust the font size of the heading */
     margin-bottom: 10px; /* Space below the heading */
-    color: #333; /* Text color */
+    color: #fff; /* Text color */
 }
 
 #create p,
 #create ol {
     font-size: 1em; /* Adjust the font size for readability */
-    line-height: 0; /* Improved line spacing for readability */
-    color: #333; /* Text color */
+    line-height: 0.5; /* Improved line spacing for readability */
+    color: #fff; /* Text color */
 }
 
 #create ol {
