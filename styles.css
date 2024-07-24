@@ -44,7 +44,7 @@ section {
 }
 
 #home {
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Deep Space gradient */
+    background: rgba(0, 0, 0, 0.7); /*linear-gradient(to right, #0f2027, #203a43, #2c5364); */ /* Deep Space gradient */
     color: #fff;
 }
 
@@ -174,7 +174,7 @@ footer {
 }
 
 #create {
-    background-color: #F0F8FF; /* Cloud White */
+    background-color: rgba(0, 0, 0, 0.7); /* Cloud White */
     padding: 60px 20px; /* Adjust the padding as needed */
     text-align: left; /* Align text to the left */
 }
@@ -188,7 +188,7 @@ footer {
 #create p,
 #create ol {
     font-size: 1em; /* Adjust the font size for readability */
-    line-height: 1.2; /* Improved line spacing for readability */
+    line-height: 0; /* Improved line spacing for readability */
     color: #333; /* Text color */
 }
 
@@ -201,7 +201,7 @@ footer {
 }
 
 #create a {
-    color: #2E8B57; /* Seafoam Green for links */
+    color: #ff6347; 
     text-decoration: none; /* Remove underline from links */
     font-weight: bold; /* Bold text for links */
 }
@@ -210,4 +210,34 @@ footer {
     text-decoration: underline; /* Underline on hover */
 }
 
+#profiles {
+    background: rgba(0, 0, 0, 0.7); 
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    background-color: #ff4500; 
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-button i {
+    margin-right: 8px;
+}
+
+.social-button:hover {
+    background-color: #FFB6C1; /* Sunset Pink */
+    transform: scale(1.05);
+}
 
